@@ -1,9 +1,11 @@
 import React from 'react';
+import { Toolbar } from '../components/toolbar';
 import styles from '../styles/eom.module.css';
 
 const EOM = ({ employee }) => {
     return (
         <div className='page-container'>
+            <Toolbar />
             <div className={styles.main}>
                 <h1>Random employee of the month</h1>
                 <div className={styles.employeeOfTheMonth}>
